@@ -24,7 +24,6 @@ Sign in Verification
     select frame  ${Frame}
     click button  ${SignIn_Button}
     ${ActualErrorMsg} =  get text  ${Error}
-    Log  ${ActualErrorMsg}
     should be equal as strings  ${ActualErrorMsg}  ${ExpErrorMsg}
     unselect frame
     click element  ${Close_icon}

@@ -14,7 +14,7 @@ ${URL} =  https://www.cleartrip.com/
 
 *** Test Cases ***
 Sign In Test
-    [Documentation]  Launching URL & Verifying Logo
+    [Documentation]  Launching URL & Sign in error msg check
     Navigate to Homepage
     Sign in Verification
 
