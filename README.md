@@ -1,4 +1,4 @@
-# git-Puma
+# git-ClearTrip
 My sample Test Automation script for ClearTrip website using Selenium Webdriver - Python's Robot Framework <br /> - Keyword Driven - Page Object Model.
 
 # Scenarios Covered
