@@ -11,6 +11,7 @@ Begin Test
 CHROME
     [Arguments]  ${alias}=${EMPTY}
     ${options} =   Evaluate   sys.modules['selenium.webdriver'].ChromeOptions()   sys, selenium.webdriver
+    Call Method    ${options}    add_argument   disable-notifications
     Call Method    ${options}    add_argument   disable-infobars
     Create WebDriver  Chrome  alias=${alias}  chrome_options=${options}
     maximize browser window

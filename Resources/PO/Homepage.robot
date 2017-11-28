@@ -15,7 +15,6 @@ ${ExpErrorMsg} =  There were errors in your submission\nYour username is a requi
 *** Keywords ***
 Navigate to Homepage
     Go to  ${URL}
-    reload page
     page should contain element  ${Logo}
 
 Sign in Verification
